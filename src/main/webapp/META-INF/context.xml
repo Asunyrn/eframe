@@ -1,0 +1,16 @@
+<Context>
+	<Resource 
+	    name="dataSource_sicaapplyprogquery" 
+	    type="javax.sql.DataSource"
+		driverClassName="oracle.jdbc.driver.OracleDriver" 
+		url="jdbc:oracle:thin:@192.168.123.175:1521:orcl"
+		username="ssh" 
+		password="ssh" 
+		maxIdle="30" 
+		maxWait="10000" 
+		maxActive="200"
+		removeAbandoned="true" 
+		removeAbandonedTimeout="600" 
+		logAbandoned="true" 
+	/>
+</Context>
